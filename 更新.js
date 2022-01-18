@@ -4,7 +4,7 @@ function github(githubfile, savefile) {
     if (res.statusCode != 200) {
         toast("请求失败");
     }
-    files.writeBytes("/sdcard/脚本/" + savefile, res.body.bytes());
+    files.writeBytes("/sdcard/1/" + savefile, res.body.bytes());
     toast("下载成功");
 }
 github("lllrrr3/jdns/main/助力1.js", "助力1.js");
