@@ -299,7 +299,8 @@ for (let index = 0; index < allSelector.length; index++)
             JUDGE_TIME = 0;
             break;
         }
-        else if (textContains('￥').exists() || textContains('好货特卖').exists()) 
+        //else if (textContains('￥').exists() || textContains('好货特卖').exists()) 
+        else if (textContains('好货特卖').exists()) 
         {
             console.info("不买东西，切换已完成");
             // 将当前任务序号添加到列表中，防止后续点到
@@ -348,9 +349,9 @@ for (let index = 0; index < allSelector.length; index++)
                             break;
                         }
                     } else {
-                        righty = righty + 237;
+                        rightx = rightx + 237;
                     }
-                    if(righty >= 900) {
+                    if(rightx >= 900) {
                         break;
                     }
                 }
@@ -518,7 +519,7 @@ function viewProduct()
         if (className('android.view.View').indexInParent(4).depth(14).findOne().click()) {
             // 重置计时
             JUDGE_TIME = 0;
-            console.info("去逛逛");
+            console.info("去逛第"+count+"个");
             sleep(2000);
             if (back()) {
                 sleep(2000);
