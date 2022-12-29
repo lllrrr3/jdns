@@ -19,5 +19,5 @@ github("lllrrr3/jdns/main/update.js", "update.js");
 github("lllrrr3/jdns/main/join.js", "join.js");
 github("lllrrr3/jdns/main/help1.js", "help1.js");
 github("lllrrr3/jdns/main/help2.js", "help2.js");
-github("omxmo/xb/main/zrw_jdrw.js", "zrw_jdrw.js");
-github("omxmo/xb/main/zrw_tmrw.js", "zrw_tmrw.js");
+//github("omxmo/xb/main/zrw_jdrw.js", "zrw_jdrw.js");
+//github("omxmo/xb/main/zrw_tmrw.js", "zrw_tmrw.js");
