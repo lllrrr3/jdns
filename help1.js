@@ -57,7 +57,7 @@ for (var i = 0; i < Code.length;) {
         }
         if (j < 20) {
             sleep(1000);
-            textMatches("加入队伍加入队伍|为TA助力为TA助力").findOnce().parent().click();
+            textMatches("加入队伍加入队伍|为TA助力为TA助力").findOnce().click();
             sleep(2000);
             console.log("助力完成");
             i++;
