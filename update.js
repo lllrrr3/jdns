@@ -7,10 +7,10 @@ function github(githubfile, savefile) {
     files.writeBytes("/sdcard/1/" + savefile, res.body.bytes());
     toast("下载成功");
 }
-//github("MonsterNone/tmall-miao/master/jd_choujiang.js", "jd_choujiang.js");
-//github("MonsterNone/tmall-miao/master/start.js", "start.js");
+github("MonsterNone/tmall-miao/master/jd_hb.js", "jd_hb.js");
+github("MonsterNone/tmall-miao/master/start.js", "start.js");
 github("MonsterNone/tmall-miao/master/start_jd.js", "start_jd.js");
-//github("MonsterNone/tmall-miao/master/ui.js", "ui.js");
+github("MonsterNone/tmall-miao/master/tb_huichang.js", "tb_huichang.js");
 github("MonsterNone/tmall-miao/master/tb_luck.js", "tb_luck.js");
 //github("ljt0515/618/main/version", "version");
 //github("ljt0515/618/main/tb_hc.js", "tb_hc.js");
